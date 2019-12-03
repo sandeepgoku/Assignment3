@@ -1,10 +1,11 @@
 Accuracy on test data is: 75.24
+
 Model definition:
 model_sep.add(SeparableConv2D(48, 3, strides=(1, 1), padding='valid', data_format=None, 
                              dilation_rate=(1, 1), depth_multiplier=1, activation=None, use_bias=True, 
                              depthwise_initializer='glorot_uniform', pointwise_initializer='glorot_uniform', 
                              bias_initializer='zeros', depthwise_regularizer=None, pointwise_regularizer=None, bias_regularizer=None, 
-                             activity_regularizer=None, depthwise_constraint=None, pointwise_constraint=None, bias_constraint=None,input_shape=(32, 32, 3))) #output shape(30,30,48)
+                             activity_regularizer=None, depthwise_constraint=None, pointwise_constraint=None, bias_constraint=None,input_shape=(32, 32, 3)))
                              
 50 Epochs values:                             
 Epoch 1/50
